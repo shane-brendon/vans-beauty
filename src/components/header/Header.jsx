@@ -1,4 +1,4 @@
-import Nav from "../utils/nav/Nav";
+import Nav from "../common/nav/Nav";
 import Image from "next/image";
 import styles from "./header.module.css";
 import { amiri } from "@/src/utils/fonts";
@@ -11,9 +11,9 @@ function Header() {
       <div className={`container ${styles.header}`}>
         <div className="logo">
           <Image
-            src={"/vercel.svg"}
-            width={100}
-            height={100}
+            src={"/logo-naylish-dark.png"}
+            width={170}
+            height={70}
             alt="this"
           ></Image>
         </div>
