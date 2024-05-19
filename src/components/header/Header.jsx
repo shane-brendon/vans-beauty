@@ -5,7 +5,6 @@ import { amiri } from "@/src/utils/fonts";
 import { palanquin } from "@/src/utils/fonts";
 
 function Header() {
-  console.log(palanquin);
   return (
     <header>
       <div className={`container ${styles.header}`}>
