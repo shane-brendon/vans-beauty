@@ -17,7 +17,6 @@ function Header() {
             alt="this"
           ></Image>
         </div>
-        <h1 className={amiri.className}>HELLO WORLD</h1>
         <div className={styles.right}>
           <Nav></Nav>
           <div className={styles.socials}>
