@@ -1,0 +1,15 @@
+.nav ul {
+  display: flex;
+  gap: 2rem;
+  font-size: 14px;
+}
+
+.active {
+  background-color: red;
+}
+
+@media screen and (max-width: 840px) {
+  .nav {
+    display: none;
+  }
+}

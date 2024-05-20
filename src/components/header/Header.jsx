@@ -1,8 +1,10 @@
 import Nav from "../common/nav/Nav";
 import Image from "next/image";
-import styles from "./header.module.css";
+import styles from "./header.module.scss";
 import { amiri } from "@/src/utils/fonts";
-import { palanquin } from "@/src/utils/fonts";
+import FacebookIcon from "@/src/assets/FacebookIcon";
+import InstagramIcon from "@/src/assets/InstagramIcon";
+import HamburgerMenuIcon from "@/src/assets/HamburgerMenuIcon";
 
 function Header() {
   return (
@@ -19,9 +21,21 @@ function Header() {
         <div className={styles.right}>
           <Nav></Nav>
           <div className={styles.socials}>
-            <div className="facebook">F</div>
-            <div className="instagram">I</div>
-            <div className="hamburger-menu">-</div>
+            <FacebookIcon
+              width={20}
+              height={20}
+              fill={"#053543"}
+            ></FacebookIcon>
+            <InstagramIcon
+              width={20}
+              height={20}
+              fill={"#053543"}
+            ></InstagramIcon>
+            <HamburgerMenuIcon
+              width={24}
+              height={24}
+              fill={"#053543"}
+            ></HamburgerMenuIcon>
           </div>
         </div>
       </div>

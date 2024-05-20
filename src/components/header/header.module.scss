@@ -2,14 +2,23 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 10px;
 }
 .right {
   display: flex;
   justify-content: space-between;
-  gap: 1rem;
+  align-items: center;
+  gap: 4rem;
 }
 
 .socials {
   display: flex;
   align-items: center;
+  gap: 1.5rem;
+}
+
+@media screen and (max-width: 640px) {
+  .socials svg:not(:last-child) {
+    display: none;
+  }
 }
