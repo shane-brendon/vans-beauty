@@ -1,14 +1,13 @@
-import Nav from "../common/nav/Nav";
+import Nav from "../lib/nav/Nav";
 import Image from "next/image";
 import styles from "./header.module.scss";
-import { amiri } from "@/src/utils/fonts";
 import FacebookIcon from "@/src/assets/FacebookIcon";
 import InstagramIcon from "@/src/assets/InstagramIcon";
 import HamburgerMenuIcon from "@/src/assets/HamburgerMenuIcon";
 
 function Header() {
   return (
-    <header>
+    <header className={styles.wrapper}>
       <div className={`container ${styles.header}`}>
         <div className="logo">
           <Image

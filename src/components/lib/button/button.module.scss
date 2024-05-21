@@ -1,0 +1,12 @@
+.btn {
+  background-color: transparent;
+  border: 1px solid #053543;
+  padding: 20px 40px;
+  cursor: pointer;
+  transition: all 300ms;
+  &:hover {
+    scale: 0.95;
+    background-color: #053543;
+    color: white;
+  }
+}

@@ -34,7 +34,10 @@ function Nav() {
     <nav className={`${styles.nav} ${palanquin.className}`}>
       <ul>
         {links.map(({ href, label }) => (
-          <li key={label} className={route === href ? styles.active : ""}>
+          <li
+            key={label}
+            className={route === href ? "at an active class" : ""}
+          >
             <Link href={href}>{label}</Link>
           </li>
         ))}
