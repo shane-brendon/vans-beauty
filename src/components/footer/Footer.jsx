@@ -47,13 +47,17 @@ function Footer() {
             <h4 className={`${amiri.className}`}>Subscribe Newsletter</h4>
             <form action="">
               <input type="email" placeholder="Your E-mail" />
-              <button type="submit" className={palanquin.className}>Subscribe</button>
+              <button type="submit" className={palanquin.className}>
+                Subscribe
+              </button>
             </form>
           </div>
         </div>
         <div>
           <div className="author">Nail Salon Template Kit By Jegtheme.</div>
-          <div className="copyrights">Copyright © 2022. All rights reserved.</div>
+          <div className="copyrights">
+            Copyright © 2022. All rights reserved.
+          </div>
         </div>
       </div>
     </footer>

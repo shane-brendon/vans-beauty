@@ -5,6 +5,7 @@ export const amiri = Amiri({
   style: ["normal"],
   subsets: ["latin"],
   display: "swap",
+  variable: "--font-amari",
 });
 
 export const palanquin = Palanquin({
@@ -12,4 +13,5 @@ export const palanquin = Palanquin({
   style: ["normal"],
   subsets: ["latin"],
   display: "swap",
+  variable: "--font-palanquin",
 });

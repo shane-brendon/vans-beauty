@@ -4,8 +4,8 @@ import MeaAbout from "@/src/components/mea_about/MeaAbout";
 export default function Home() {
   return (
     <main>
-      <Hero/>
-      <MeaAbout/>
+      <Hero />
+      <MeaAbout />
     </main>
   );
 }

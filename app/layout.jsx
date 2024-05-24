@@ -2,7 +2,8 @@ import { Inter } from "next/font/google";
 import "./globals.scss";
 import Header from "@/src/components/header/Header";
 import Footer from "@/src/components/footer/Footer";
-
+import { amiri } from "@/src/utils/fonts";
+import { palanquin } from "@/src/utils/fonts";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -13,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${amiri.variable} ${palanquin.variable}`}>
         <Header></Header>
         {children}
         <Footer></Footer>

@@ -142,7 +142,7 @@ $pale: #fdf5e6;
   margin: 0 auto;
   &.flex {
     display: flex;
-    >div {
+    > div {
       width: 50%;
     }
   }
@@ -151,4 +151,37 @@ $pale: #fdf5e6;
   .container {
     max-width: 90vw;
   }
+}
+
+//common classes
+
+.tags {
+  font-family: var(--font-palanquin);
+  color: #0b2b43;
+  font-size: 21px;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 3px;
+    width: 90%;
+    background: #c6651a;
+  }
+}
+
+.block_title {
+  font-size: 58px;
+  font-family: var(--font-amiri);
+  color: #053543;
+  line-height: 58px;
+}
+
+.description {
+  font-size: 16px;
+  color: #7b7b7b;
+  font-family: var(--font-palanquin);
+  line-height: 24px;
 }
