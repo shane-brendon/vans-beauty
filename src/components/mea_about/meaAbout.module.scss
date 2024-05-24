@@ -1,0 +1,25 @@
+.wrapper {
+  counter-reset: red;
+  height: 100vh;
+  padding: 80px 0;
+
+  .imgWrapper {
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+  .img1, .img2 {
+    position: absolute;
+  }
+  
+  .img1 {
+    top: 0;
+    left: 0;
+  }
+
+  .img2 {
+    top: 0;
+    left: 0;
+  }
+}
