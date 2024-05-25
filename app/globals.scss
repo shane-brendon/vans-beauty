@@ -160,6 +160,7 @@ $pale: #fdf5e6;
   color: #0b2b43;
   font-size: 21px;
   position: relative;
+  width: max-content;
 
   &::after {
     content: "";
