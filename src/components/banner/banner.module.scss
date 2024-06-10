@@ -1,0 +1,25 @@
+.wrapper {
+  position: relative;
+  height: 55vh;
+  display: grid;
+  place-items: center;
+  color: #053543;
+  > div {
+    text-align: center;
+    padding-top: 7rem;
+  }
+  h1 {
+    font-size: 58px;
+    margin-bottom: 20px;
+  }
+}
+.banner {
+  position: absolute;
+  top: 0;
+}
+.description {
+  max-width: 50%;
+  margin: 0 auto;
+  color: #21303E;
+  line-height: 24px;
+}
