@@ -1,0 +1,57 @@
+.wrapper {
+  margin-bottom: 130px;
+}
+
+.topWrapper {
+  display: flex;
+  align-items: flex-end;
+  gap: 3rem;
+  margin-bottom: 3rem;
+  > div {
+    width: 50%;
+    + div {
+      text-align: right;
+    }
+  }
+  h2 {
+    margin-top: 2.5rem;
+  }
+}
+
+.cardWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3rem;
+  row-gap: 9rem;
+  .card {
+    position: relative;
+    img {
+      width: 100%;
+    }
+  }
+  .booking {
+    background-color: white;
+    width: 240px;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -25%;
+    > div:first-child {
+      font-size: 28px;
+      color: #053543;
+      margin: 0.5rem 0 1rem;
+    }
+
+    button {
+      background: transparent;
+      border: none;
+      margin-top: 20px;
+      color: #053543;
+      width: 100%;
+      cursor: pointer;
+      padding: 0.5rem;
+    }
+  }
+}
