@@ -1,11 +1,11 @@
-import React from 'react'
-import Banner from '@/src/components/banner/Banner'
+import React from "react";
+import Banner from "@/src/components/banner/Banner";
 function page() {
   return (
     <>
-      <Banner/>
+      <Banner />
     </>
-  )
+  );
 }
 
-export default page
+export default page;
