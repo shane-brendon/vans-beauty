@@ -21,8 +21,8 @@
 .cardWrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 3rem;
-  row-gap: 9rem;
+  column-gap: 2rem;
+  row-gap: 8rem;
   .card {
     position: relative;
     img {
@@ -38,6 +38,7 @@
     left: 50%;
     transform: translateX(-50%);
     bottom: -25%;
+    cursor: pointer;
     > div:first-child {
       font-size: 28px;
       color: #053543;
