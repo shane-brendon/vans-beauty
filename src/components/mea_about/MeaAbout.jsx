@@ -39,7 +39,7 @@ function MeaAbout() {
               Donec quam felis, ultricies nec, pellentesque.
             </p>
           </div>
-          <BtnIcons/>
+          <BtnIcons />
         </div>
       </div>
     </section>

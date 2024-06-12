@@ -8,7 +8,7 @@ function page() {
       <Services>
         <Cards />
       </Services>
-    </> 
+    </>
   );
 }
 

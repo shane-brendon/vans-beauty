@@ -6,8 +6,8 @@ function page() {
   return (
     <>
       <Banner />
-      <MeaAbout/>
-      <MeaTreatementPrice/>
+      <MeaAbout />
+      <MeaTreatementPrice />
     </>
   );
 }
