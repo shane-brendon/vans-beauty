@@ -3,6 +3,7 @@ import styles from "./meaAbout.module.scss";
 import Button from "../lib/button/Button";
 import ApprovedIcon from "@/src/assets/ApprovedIcon";
 import HappyClientsIcon from "@/src/assets/HappyClientsIcon";
+import BtnIcons from "../lib/btnAndIcons/BtnIcons";
 
 function MeaAbout() {
   return (
@@ -27,7 +28,7 @@ function MeaAbout() {
             className={styles.img2}
           ></Image>
         </div>
-        <div className="">
+        <div>
           <span className="tags">About Us</span>
           <h2 className="block_title">We Have the Nail Knowledge</h2>
           <div className="description">
@@ -38,23 +39,7 @@ function MeaAbout() {
               Donec quam felis, ultricies nec, pellentesque.
             </p>
           </div>
-          <div className={styles.styleWrapper}>
-            <div className="experience">
-              <div className={styles.logo}>
-                <ApprovedIcon width={60} height={60} fill={"#c6651a"} />
-              </div>
-              <div className={styles.stats}>24</div>
-              <div className="description">Year Experience</div>
-            </div>
-            <div className="client">
-              <div className={styles.logo}>
-                <HappyClientsIcon width={60} height={60} fill={"#c6651a"} />
-              </div>
-              <div className={styles.stats}>24</div>
-              <div className="description">Year Experience</div>
-            </div>
-          </div>
-          <Button text={"About Us"} isFill></Button>
+          <BtnIcons/>
         </div>
       </div>
     </section>
