@@ -4,6 +4,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    > div:first-child::after {
+      left: 10px;
+    }
   }
   .instagram {
     display: grid;
