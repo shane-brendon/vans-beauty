@@ -28,6 +28,10 @@ function Nav() {
       href: "/contact",
       label: "CONTACT US",
     },
+    {
+      href: "/team",
+      label: "OUR TEAM",
+    },
   ];
 
   return (

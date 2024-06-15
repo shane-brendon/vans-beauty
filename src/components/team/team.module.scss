@@ -1,0 +1,56 @@
+.wrapper {
+  margin: 30px;
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 570px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  h5 {
+    margin-bottom: 30px;
+    &::after {
+      left: 10px;
+    }
+  }
+  h2 {
+    margin-bottom: 20px;
+    white-space: nowrap;
+  }
+  .pictures {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 30px;
+    img {
+      width: 100%;
+    }
+  }
+  .item {
+    position: relative;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+  }
+  .jobTitle {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .socials {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}

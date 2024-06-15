@@ -1,12 +1,39 @@
 .wrapper {
-  margin: 100px 0 ;
+  margin: 100px 0;
   .text {
     text-align: center;
-
-    >div {
+    max-width: 570px;
+    margin: 0 auto;
+    h2 {
+      white-space: nowrap;
+      margin-bottom: 20px;
+    }
+    > div {
       display: grid;
       place-items: center;
       margin-bottom: 20px;
+    }
+  }
+  .testimonials {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+  .caroussel {
+    .item {
+      img {
+        border-radius: 999px;
+      }
+    }
+    .star {
+      margin-top: 20px;
+    }
+    .author {
+      display: flex;
+      align-items: center;
+      margin-top: 20px;
+      gap: 2rem;
     }
   }
 }
