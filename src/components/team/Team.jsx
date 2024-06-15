@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./team.module.scss";
 import Image from "next/image";
+import Button from "../lib/button/Button";
+import { amiri } from "@/src/utils/fonts";
 function TeamGalery() {
   return (
     <section className={styles.wrapper}>
@@ -93,8 +95,35 @@ function TeamGalery() {
 }
 export function MeaTeam() {
   return (
-    <section>
-      <div className="container"></div>
+    <section className={styles.meaWrapper}>
+      <div className="container">
+        <div>
+          <h5 className="tags">our team</h5>
+          <h2 className="block_title">Come Get Professionally Polished</h2>
+          <div className="description">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+            commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+            penatibus et magnis dis
+          </div>
+          <Button text={"See more"} isFill />
+        </div>
+        <div className={styles.wrapperItem}>
+          <div className="item">
+            <Image width={265} height={305} src={"/galery1.jpg"} />
+            <div className={`${styles.name} ${amiri.className}`}>
+              Gabriel Diaz
+            </div>
+            <div className="description">Owner</div>
+          </div>
+          <div className="item">
+            <Image width={265} height={305} src={"/galery1.jpg"} />
+            <div className={`${styles.name} ${amiri.className}`}>
+              Gabriel Diaz
+            </div>
+            <div className="description">Owner</div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }

@@ -54,3 +54,33 @@
     right: 0;
   }
 }
+
+.meaWrapper {
+  padding: 100px 0;
+  > div {
+    display: flex;
+    gap: 2.5rem;
+    > div {
+      width: 50%;
+    }
+  }
+  h5 {
+    margin-bottom: 20px;
+  }
+  h2 {
+    margin-bottom: 30px;
+  }
+  button {
+    margin-top: 2rem;
+  }
+  .wrapperItem {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    .name {
+      margin: 20px 0 5px;
+      font-size: 28px;
+      color: #053543;
+    }
+  }
+}
