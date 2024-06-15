@@ -1,0 +1,38 @@
+.wrapper {
+  background: transparent;
+  color: white;
+  > div {
+    display: flex;
+    padding: 100px;
+    > div {
+      width: 50%;
+    }
+  }
+  h5 {
+    margin-bottom: 20px;
+    color: white;
+  }
+  h2 {
+    margin-bottom: 30px;
+    color: white;
+  }
+  .text {
+    max-width: 450px;
+  }
+  img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  ul {
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+  li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    position: relative;
+  }
+}

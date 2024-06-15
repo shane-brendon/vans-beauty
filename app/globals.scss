@@ -147,6 +147,9 @@ $pale: #fdf5e6;
     }
   }
 }
+section {
+  background-color: white;
+}
 @media screen and (max-width: 1200px) {
   .container {
     max-width: 90vw;
