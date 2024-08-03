@@ -8,7 +8,7 @@ function page() {
     <>
       <Banner />
       <TeamGalery />
-      <OpenHours/>
+      <OpenHours />
       <Instagram />
     </>
   );

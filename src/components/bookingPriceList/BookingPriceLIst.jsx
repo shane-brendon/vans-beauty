@@ -5,7 +5,7 @@ function BookingPriceList() {
   return (
     <section className={`${styles.wrapper}`}>
       <div className="container">
-        <div >
+        <div>
           <span className="tags">Service Menu</span>
           <h2 className="block_title">Give Your Nail A sweet Treat</h2>
         </div>

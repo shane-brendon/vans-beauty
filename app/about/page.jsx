@@ -13,7 +13,7 @@ function page() {
       <MeaTreatementPrice />
       <MeaTeam />
       <OpenHours />
-      <Instagram/>
+      <Instagram />
     </>
   );
 }

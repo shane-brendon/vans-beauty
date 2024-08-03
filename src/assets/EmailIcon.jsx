@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
 const EmailIcon = (props) => {
-  const { stroke = '#000000', width = 24, height = 24, className } = props;
-  
+  const { stroke = "#000000", width = 24, height = 24, className } = props;
+
   return (
     <svg
       width={width}

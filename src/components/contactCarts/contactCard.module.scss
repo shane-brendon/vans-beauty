@@ -3,7 +3,7 @@
   ul {
     display: flex;
     justify-content: space-between;
-    gap: 20px ;
+    gap: 20px;
     li {
       text-align: center;
       background-color: #fdf5e6;
@@ -16,7 +16,7 @@
         display: block;
         max-width: 260px;
       }
-      .emailIcon path{
+      .emailIcon path {
         stroke: #c6651a;
       }
     }
