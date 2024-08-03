@@ -11,7 +11,7 @@ function page() {
         <Cards />
       </Services>
       <Testiamonials />
-      <MeaTreatementPrice isListing/>
+      <MeaTreatementPrice type={"priceList"}/>
     </>
   );
 }

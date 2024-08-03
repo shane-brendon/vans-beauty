@@ -13,7 +13,7 @@ export default function Home() {
       <Services>
         <Cards />
       </Services>
-      <MeaTreatementPrice isListing/>
+      <MeaTreatementPrice type={"priceList"}/>
       <Testiamonials />
       <OpenHours />
       <Instagram />

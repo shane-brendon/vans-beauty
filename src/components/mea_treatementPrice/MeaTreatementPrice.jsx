@@ -2,18 +2,41 @@ import React from "react";
 import styles from "./mwaTreamentPrice.module.scss";
 import Image from "next/image";
 import BtnIcons from "../lib/btnAndIcons/BtnIcons";
-function MeaTreatementPrice({ isListing }) {
+function MeaTreatementPrice({ type }) {
   return (
     <section className={styles.wrapper}>
       <div className="container flex">
-        <div className={styles.priceWrapper}>
-          <div className={`${styles.tag} tags`}>Treatment & price</div>
-          <h2 className="block_title">It’s Time to Get Trimmed.</h2>
-          {isListing ? <Listing /> : <Text />}
-        </div>
-        <div className={styles.imgWrapper}>
-          <Image src={"/person-nail.jpg"} width={550} height={800} />
-        </div>
+        {type !== "booking" ? (
+          <>
+            <div className={styles.priceWrapper}>
+              <div className={`${styles.tag} tags`}>Treatment & price</div>
+              <h2 className="block_title">It’s Time to Get Trimmed.</h2>
+              {type === "priceList" ? <Listing /> : <Text />}
+            </div>
+            <div className={styles.imgWrapper}>
+              <Image src={"/person-nail.jpg"} width={550} height={800} />
+            </div>
+          </>
+        ) : (
+          <>
+            <div className={styles.priceWrapper}>
+              <div className={`${styles.tag} tags`}>Make Appointment</div>
+              <h2 className="block_title">Get Our Service</h2>
+              <span className="description">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris
+                </p>
+              </span>
+              <div></div>
+            </div>
+            <div className={styles.imgWrapper}>
+              <Image src={"/person-nail.jpg"} width={550} height={800} />
+            </div>
+          </>
+        )}
       </div>
     </section>
   );
