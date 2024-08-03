@@ -175,7 +175,12 @@ section {
     background: #c6651a;
   }
 }
-
+.title {
+  font-size: 28px;
+  font-family: var(--font-amiri);
+  color: #053543;
+  line-height: 58px;
+}
 .block_title {
   font-size: 58px;
   font-family: var(--font-amiri);
