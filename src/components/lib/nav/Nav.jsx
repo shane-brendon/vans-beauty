@@ -21,16 +21,16 @@ function Nav() {
       label: "SERVICES",
     },
     {
-      href: "/PAGES",
-      label: "PAGE",
+      href: "/team",
+      label: "OUR TEAM",
+    },
+    {
+      href: "/booking",
+      label: "BOOKING",
     },
     {
       href: "/contact",
       label: "CONTACT US",
-    },
-    {
-      href: "/team",
-      label: "OUR TEAM",
     },
   ];
 
