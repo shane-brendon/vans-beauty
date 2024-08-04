@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./mwaTreamentPrice.module.scss";
 import Image from "next/image";
 import BtnIcons from "../lib/btnAndIcons/BtnIcons";
+import BookingForm from "../form/bookingForm/BookingForm";
+
 function MeaTreatementPrice({ type }) {
   return (
     <section className={styles.wrapper}>
@@ -33,7 +35,7 @@ function MeaTreatementPrice({ type }) {
               <div></div>
             </div>
             <div className={styles.imgWrapper}>
-              <Image src={"/person-nail.jpg"} width={550} height={800} />
+              <BookingForm />
             </div>
           </>
         )}
