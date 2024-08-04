@@ -10,11 +10,7 @@ function BookingForm() {
     formState: { errors },
   } = useForm();
 
-  return (
-    <form className={styles.bookingForm}>
-      
-    </form>
-  );
+  return <form className={styles.bookingForm}></form>;
 }
 
 export default BookingForm;
