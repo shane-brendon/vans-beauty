@@ -3,7 +3,7 @@ import styles from "./mwaTreamentPrice.module.scss";
 import Image from "next/image";
 import BtnIcons from "../lib/btnAndIcons/BtnIcons";
 import BookingForm from "../form/bookingForm/BookingForm";
-
+import ContactForm from "../form/contactForm/contactForm";
 function MeaTreatementPrice({ type }) {
   return (
     <section className={styles.wrapper}>
@@ -35,7 +35,7 @@ function MeaTreatementPrice({ type }) {
               <div></div>
             </div>
             <div className={styles.imgWrapper}>
-              <BookingForm />
+              <ContactForm/>
             </div>
           </>
         )}
