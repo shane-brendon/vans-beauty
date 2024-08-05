@@ -7,7 +7,7 @@ function page() {
     <>
       <Banner />
       <ContactCards />
-      <MeaTreatementPrice type={"booking"}/>
+      <MeaTreatementPrice type={"booking"} />
     </>
   );
 }

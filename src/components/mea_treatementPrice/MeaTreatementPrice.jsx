@@ -35,8 +35,8 @@ function MeaTreatementPrice({ type }) {
               <div></div>
             </div>
             <div className={styles.imgWrapper}>
-                <ContactForm />
-                {/* add condition for booking page and for the contact page */}
+              <ContactForm />
+              {/* add condition for booking page and for the contact page */}
             </div>
           </>
         )}

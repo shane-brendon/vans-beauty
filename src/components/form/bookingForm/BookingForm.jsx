@@ -74,7 +74,7 @@ function BookingForm() {
         <Textarea id="message" placeholder="Your Message" />
       </div>
       <div>
-        <ButtonCustom text={"Book Appointement"} isFill type="submit"/>
+        <ButtonCustom text={"Book Appointement"} isFill type="submit" />
       </div>
     </form>
   );
@@ -91,11 +91,17 @@ export function DatePicker() {
           variant={"outline"}
           className={cn(
             "justify-start text-left font-normal w-full",
-            !date && "text-muted-foreground"
+            !date && "text-muted-foreground",
           )}
         >
           <CalendarIcon className="mr-2 h-4 w-4" />
-          {date ? format(date, "PPP") : <span className="pl-1 inline-block text-slate-600">Pick a date</span>}
+          {date ? (
+            format(date, "PPP")
+          ) : (
+            <span className="pl-1 inline-block text-slate-600">
+              Pick a date
+            </span>
+          )}
         </Button>
       </PopoverTrigger>
       <PopoverContent className="w-auto p-0">

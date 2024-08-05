@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./team.module.scss";
 import Image from "next/image";
-import ButtonCustom from "../lib/button/Button";
+import ButtonCustom from "../lib/button/ButtonCustom";
 import { amiri } from "@/src/utils/fonts";
 function TeamGalery() {
   return (
