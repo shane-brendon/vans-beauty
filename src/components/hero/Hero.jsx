@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Button from "../lib/button/Button";
+import Button from "../lib/button/ButtonCustom";
 import styles from "./hero.module.scss";
 import { amiri } from "@/src/utils/fonts";
 import { palanquin } from "@/src/utils/fonts";

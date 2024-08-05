@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./meaAbout.module.scss";
-import Button from "../lib/button/Button";
+import Button from "../lib/button/ButtonCustom";
 import ApprovedIcon from "@/src/assets/ApprovedIcon";
 import HappyClientsIcon from "@/src/assets/HappyClientsIcon";
 import BtnIcons from "../lib/btnAndIcons/BtnIcons";

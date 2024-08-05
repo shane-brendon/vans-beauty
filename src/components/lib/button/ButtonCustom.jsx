@@ -1,6 +1,6 @@
 import styles from "./button.module.scss";
 
-function Button({ isFill, text }) {
+function ButtonCustom({ isFill, text }) {
   return (
     <button className={`${styles.btn} ${isFill ? styles.fill : ""}`}>
       {text}
@@ -8,4 +8,4 @@ function Button({ isFill, text }) {
   );
 }
 
-export default Button;
+export default ButtonCustom;

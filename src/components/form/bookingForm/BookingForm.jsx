@@ -18,6 +18,7 @@ import { Calendar as CalendarIcon } from "lucide-react";
 
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import ButtonCustom from "../../lib/button/ButtonCustom";
 import { Calendar } from "@/components/ui/calendar";
 import {
   Popover,
@@ -39,34 +40,41 @@ function BookingForm() {
         <Label htmlFor="name" />
         <Input type="text" placeholder="Your Name" id="name" />
       </div>
-      <div>
-        <Label htmlFor="email" />
-        <Input type="email" placeholder="Your Email" id="email" />
+      <div className={`${styles.row}`}>
+        <div>
+          <Label htmlFor="email" />
+          <Input type="email" placeholder="Your Email" id="email" />
+        </div>
+        <div>
+          <Label htmlFor="tel" />
+          <Input type="tel" placeholder="Your Phone" id="tel" />
+        </div>
       </div>
-      <div>
-        <Label htmlFor="tel" />
-        <Input type="tel" placeholder="Your Phone" id="tel" />
-      </div>
-      <div>
-        <Label htmlFor="email" />
-        <Select>
-          <SelectTrigger className="w-[190px]">
-            <SelectValue placeholder="Your Service" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem value="light">Hands</SelectItem>
-            <SelectItem value="dark">Feet</SelectItem>
-            <SelectItem value="system">Hairs</SelectItem>
-          </SelectContent>
-        </Select>
-      </div>
-      <div>
-        <Label htmlFor="email" />
-        <DatePicker />
+      <div className={`${styles.row}`}>
+        <div className="">
+          <Label htmlFor="email" />
+          <Select>
+            <SelectTrigger className="w-[190px]">
+              <SelectValue placeholder="Your Service" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="light">Hands</SelectItem>
+              <SelectItem value="dark">Feet</SelectItem>
+              <SelectItem value="system">Hairs</SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+        <div>
+          <Label htmlFor="email" />
+          <DatePicker />
+        </div>
       </div>
       <div>
         <Label htmlFor="message" />
         <Textarea id="message" placeholder="Your Message" />
+      </div>
+      <div>
+        <ButtonCustom text={"Book Appointement"} isFill/>
       </div>
     </form>
   );
@@ -83,7 +91,7 @@ export function DatePicker() {
           variant={"outline"}
           className={cn(
             "w-[280px] justify-start text-left font-normal",
-            !date && "text-muted-foreground",
+            !date && "text-muted-foreground"
           )}
         >
           <CalendarIcon className="mr-2 h-4 w-4" />

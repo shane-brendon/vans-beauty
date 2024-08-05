@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./openHours.module.scss";
 import Image from "next/image";
-import Button from "../lib/button/Button";
+import Button from "../lib/button/ButtonCustom";
 
 function OpenHours() {
   return (
