@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./openHours.module.scss";
 import Image from "next/image";
-import Button from "../lib/button/ButtonCustom";
+import ButtonCustom from "../lib/button/ButtonCustom";
 
 function OpenHours() {
   return (
@@ -28,7 +28,7 @@ function OpenHours() {
                 <div className="time">09.00 AM – 19.00 PM</div>
               </li>
             </ul>
-            <Button text={"Book now"} isFill />
+            <ButtonCustom text={"Book now"} isFill />
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Button from "../lib/button/ButtonCustom";
+import ButtonCustom from "../lib/button/ButtonCustom";
 import styles from "./hero.module.scss";
 import { amiri } from "@/src/utils/fonts";
 import { palanquin } from "@/src/utils/fonts";
@@ -17,8 +17,8 @@ function Hero() {
             </p>
           </div>
           <div className={styles.btn}>
-            <Button text={"Book Appointement"}></Button>
-            <Button text={"Our Service"}></Button>
+            <ButtonCustom text={"Book Appointement"}></ButtonCustom>
+            <ButtonCustom text={"Our Service"}></ButtonCustom>
           </div>
         </div>
         <div className={styles.image}>

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./team.module.scss";
 import Image from "next/image";
-import Button from "../lib/button/Button";
+import ButtonCustom from "../lib/button/Button";
 import { amiri } from "@/src/utils/fonts";
 function TeamGalery() {
   return (
@@ -105,7 +105,7 @@ export function MeaTeam() {
             commodo ligula eget dolor. Aenean massa. Cum sociis natoque
             penatibus et magnis dis
           </div>
-          <Button text={"See more"} isFill />
+          <ButtonCustom text={"See more"} isFill />
         </div>
         <div className={styles.wrapperItem}>
           <div className="item">

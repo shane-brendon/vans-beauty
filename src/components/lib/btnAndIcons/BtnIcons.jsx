@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./btnIcons.module.scss";
 import ApprovedIcon from "@/src/assets/ApprovedIcon";
 import HappyClientsIcon from "@/src/assets/HappyClientsIcon";
-import Button from "../button/ButtonCustom";
+import ButtonCustom from "../button/ButtonCustom";
 
 function BtnIcons() {
   return (
@@ -23,7 +23,7 @@ function BtnIcons() {
           <div className="description">Year Experience</div>
         </div>
       </div>
-      <Button text={"About Us"} isFill></Button>
+      <ButtonCustom text={"About Us"} isFill></ButtonCustom>
     </div>
   );
 }
