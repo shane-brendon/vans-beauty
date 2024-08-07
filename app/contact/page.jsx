@@ -7,7 +7,14 @@ function page() {
     <>
       <Banner />
       <ContactCards />
-      <MeaTreatementPrice type={"booking"} />
+      <MeaTreatementPrice
+        type={"contact"}
+        caption={"Contact"}
+        title={"Get in touch"}
+        description={
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }
+      />
     </>
   );
 }

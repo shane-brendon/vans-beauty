@@ -4,42 +4,37 @@ import Image from "next/image";
 import BtnIcons from "../lib/btnAndIcons/BtnIcons";
 import BookingForm from "../form/bookingForm/BookingForm";
 import ContactForm from "../form/contactForm/contactForm";
-function MeaTreatementPrice({ type }) {
+function MeaTreatementPrice({
+  type,
+  caption,
+  title,
+  description = "",
+  button = false,
+}) {
+  console.log(type)
   return (
     <section className={styles.wrapper}>
       <div className="container flex">
-        {type !== "booking" ? (
-          <>
-            <div className={styles.priceWrapper}>
-              <div className={`${styles.tag} tags`}>Treatment & price</div>
-              <h2 className="block_title">It’s Time to Get Trimmed.</h2>
-              {type === "priceList" ? <Listing /> : <Text />}
+        <div className={styles.priceWrapper}>
+          {caption && <div className={`${styles.tag} tags`}>{caption}</div>}
+          {title && <h2 className="block_title">{title}</h2>}
+          {description && (
+            <div className="description">
+              <p>{description}</p>
+              {button && <BtnIcons />}
             </div>
-            <div className={styles.imgWrapper}>
-              <Image src={"/person-nail.jpg"} width={550} height={800} />
-            </div>
-          </>
-        ) : (
-          <>
-            <div className={styles.priceWrapper}>
-              <div className={`${styles.tag} tags`}>Make Appointment</div>
-              <h2 className="block_title">Get Our Service</h2>
-              <span className="description">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris
-                </p>
-              </span>
-              <div></div>
-            </div>
-            <div className={styles.imgWrapper}>
-              <ContactForm />
-              {/* add condition for booking page and for the contact page */}
-            </div>
-          </>
-        )}
+          )}
+          {type === "priceList" && <Listing />}
+        </div>
+        <div className={styles.imgWrapper}>
+          {type !== "contact" && type !== "booking" ? (
+            <Image src={"/person-nail.jpg"} width={550} height={800} />
+          ) : type === "booking" ? (
+            <BookingForm />
+          ) : (
+            <ContactForm />
+          )}
+        </div>
       </div>
     </section>
   );
@@ -116,20 +111,4 @@ function Listing() {
     </ul>
   );
 }
-function Text() {
-  return (
-    <>
-      <div className="description">
-        <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-          felis, ultricies nec, pellentesque.
-        </p>
-        <BtnIcons />
-      </div>
-    </>
-  );
-}
-
 export default MeaTreatementPrice;
