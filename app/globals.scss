@@ -197,3 +197,11 @@ section {
   font-family: var(--font-palanquin);
   line-height: 24px;
 }
+
+*:has(+ p[role="alert"]) {
+  border: 1px solid red;
+  outline: none;
+  + p {
+    margin-top: 10px;
+  }
+}

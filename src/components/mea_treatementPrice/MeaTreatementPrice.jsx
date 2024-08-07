@@ -11,7 +11,6 @@ function MeaTreatementPrice({
   description = "",
   button = false,
 }) {
-  console.log(type)
   return (
     <section className={styles.wrapper}>
       <div className="container flex">
