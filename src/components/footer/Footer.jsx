@@ -19,7 +19,7 @@ function Footer() {
             <div className={`${palanquin.className} ${styles.description}`}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
-            <div className="socials">
+            <div className={`socials ${styles.socials}`}>
               <FacebookIcon width={16} height={16} fill={"#fff"} />
               <InstagramIcon width={16} height={16} fill={"#fff"} />
               <TwitterIcon width={16} height={16} fill={"#fff"} />
@@ -44,13 +44,15 @@ function Footer() {
             </ul>
           </div>
           <div className={styles.newsletter}>
-            <h4 className={`${amiri.className}`}>Subscribe Newsletter</h4>
-            <form action="">
-              <input type="email" placeholder="Your E-mail" />
-              <button type="submit" className={palanquin.className}>
-                Subscribe
-              </button>
-            </form>
+            <div>
+              <h4 className={`${amiri.className}`}>Subscribe Newsletter</h4>
+              <form action="">
+                <input type="email" placeholder="Your E-mail" />
+                <button type="submit" className={palanquin.className}>
+                  Subscribe
+                </button>
+              </form>
+            </div>
           </div>
         </div>
         <div>

@@ -1,6 +1,5 @@
 .wrapper {
   background-color: #053543;
-  height: 45vh;
   color: white;
   > div {
     height: 100%;
@@ -10,8 +9,25 @@
     > div {
       display: flex;
       justify-content: space-between;
+      flex-wrap: wrap;
       > div {
         width: 24%;
+      }
+    }
+    @media screen and (max-width: 801px) {
+      > div {
+        > div {
+          width: 50%;
+        }
+      }
+    }
+
+    @media screen and (max-width: 640px) {
+      > div {
+        flex-direction: column;
+        > div {
+          width: 100%;
+        }
       }
     }
   }
@@ -42,6 +58,8 @@
   .newsletter {
     form {
       position: relative;
+      display: flex;
+      align-items: center;
     }
     input {
       height: 42px;
@@ -53,13 +71,25 @@
       }
     }
     button {
-      position: absolute;
       top: 0;
       height: 100%;
       font-size: 16px;
-      padding: 8px 20px;
+      padding: 12px 20px;
       background-color: #fdf5e6;
       border: 1px solid #fdf5e6;
+      color: #053543;
+    }
+    @media screen and (min-width: 801px) {
+      width: 100%;
+    }
+  }
+  .socials {
+    display: flex;
+    gap: 2rem;
+    margin: 20px 0;
+    svg {
+      height: 1.25rem;
+      width: 1.25rem;
     }
   }
 }
