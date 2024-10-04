@@ -1,8 +1,5 @@
 import Image from "next/image";
 import styles from "./meaAbout.module.scss";
-import Button from "../lib/button/ButtonCustom";
-import ApprovedIcon from "@/src/assets/ApprovedIcon";
-import HappyClientsIcon from "@/src/assets/HappyClientsIcon";
 import BtnIcons from "../lib/btnAndIcons/BtnIcons";
 
 function MeaAbout() {
@@ -13,6 +10,7 @@ function MeaAbout() {
           <Image
             src={"/woman-having-a-manicure.jpg"}
             width={335}
+            className={styles.img0}
             height={500}
           ></Image>
           <Image
