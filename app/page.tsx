@@ -8,19 +8,19 @@ import Testiamonials from "@/src/components/testimonials/Testiamonials";
 export default function Home() {
   return (
     <main>
-      <Hero />
-      <MeaAbout />
+      {/* <Hero />
+      <MeaAbout /> */}
       <Services>
         <Cards />
       </Services>
-      <MeaTreatementPrice
+      {/* <MeaTreatementPrice
         type={"priceList"}
         caption={"Treatments & Prices"}
         title={"It’s Time to Get Trimmed."}
       />
       <Testiamonials />
       <OpenHours />
-      <Instagram />
+      <Instagram /> */}
     </main>
   );
 }

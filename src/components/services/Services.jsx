@@ -61,6 +61,16 @@ export function Cards() {
           <button type="button">book now --- </button>
         </div>
       </div>
+      <div className={styles.card}>
+        <Image src={"/manicure.jpg"} width={360} height={385} alt="" />
+        <div className={styles.booking}>
+          <div className={amiri.className}>Manicure</div>
+          <div className="description">
+            Lorem ipsum dolor sit amet, consectet adipiscing elit.
+          </div>
+          <button type="button">book now --- </button>
+        </div>
+      </div>
     </div>
   );
 }
