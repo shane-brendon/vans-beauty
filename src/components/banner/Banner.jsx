@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import styles from "./banner.module.scss";
 import { amiri, palanquin } from "@/src/utils/fonts";
 
@@ -12,7 +11,6 @@ function Banner() {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua
         </div>
-        {/* <Image src={'/woman-manicure.jpg'} width={2000} height={1333} alt='' className={styles.banner} /> */}
       </div>
     </section>
   );

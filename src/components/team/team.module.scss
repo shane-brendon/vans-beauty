@@ -83,4 +83,15 @@
       color: #053543;
     }
   }
+  @media screen and (max-width: 821px) {
+    > div {
+      flex-direction: column;
+      > div {
+        width: 100% !important;
+      }
+    }
+    img {
+      width: 100%;
+    }
+  }
 }
