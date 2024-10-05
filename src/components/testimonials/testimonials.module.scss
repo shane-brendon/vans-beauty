@@ -36,4 +36,12 @@
       gap: 2rem;
     }
   }
+  @media screen and (max-width: 640px) {
+    h2 {
+      white-space: wrap !important;
+    }
+    .testimonials {
+      flex-direction: column;
+    }
+  }
 }
