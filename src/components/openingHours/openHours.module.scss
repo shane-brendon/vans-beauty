@@ -46,20 +46,24 @@
     padding: 10px 0;
     position: relative;
   }
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 821px) {
     background-position: 70%;
-
     .placeholder {
       display: none;
     }
+
+    > div {
+      > div {
+        width: 100%;
+      }
+    }
+  }
+  @media screen and (max-width: 640px) {
     .container {
       padding: 100px 0;
     }
     > div {
       padding: 100px 0;
-      > div {
-        width: 100%;
-      }
     }
   }
 }
