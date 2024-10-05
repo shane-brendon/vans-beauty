@@ -1,15 +1,12 @@
 import React from "react";
 import styles from "./openHours.module.scss";
-import Image from "next/image";
 import ButtonCustom from "../lib/button/ButtonCustom";
 
 function OpenHours() {
   return (
     <section className={styles.wrapper}>
       <div className="container">
-        <div>
-          <Image width={2000} height={1200} src={"/background-fixed.jpg"} />
-        </div>
+        <div className={styles.placeholder}></div>
         <div>
           <div className={styles.text}>
             <h5 className="tags">Working Hour</h5>

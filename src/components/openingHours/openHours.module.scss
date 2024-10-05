@@ -1,6 +1,17 @@
 .wrapper {
   background: transparent;
   color: white;
+  position: relative;
+
+  background-image: url("/background-fixed.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+
   > div {
     display: flex;
     padding: 100px;
@@ -20,7 +31,7 @@
     max-width: 450px;
   }
   img {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
@@ -34,5 +45,21 @@
     justify-content: space-between;
     padding: 10px 0;
     position: relative;
+  }
+  @media screen and (max-width: 640px) {
+    background-position: 70%;
+
+    .placeholder {
+      display: none;
+    }
+    .container {
+      padding: 100px 0;
+    }
+    > div {
+      padding: 100px 0;
+      > div {
+        width: 100%;
+      }
+    }
   }
 }
