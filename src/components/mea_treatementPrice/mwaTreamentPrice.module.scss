@@ -19,7 +19,6 @@
     z-index: 2;
     align-items: center;
     gap: 4rem;
-    max-width: unset;
     width: 1140px;
   }
   .priceWrapper {
@@ -61,6 +60,29 @@
       margin-right: 20px;
       transform: translateY(-50%);
       border-bottom: 1px dashed #c6651a;
+    }
+  }
+  @media screen and (max-width: 821px) {
+    &.priceList > div {
+      align-items: unset !important;
+
+      img {
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+  @media screen and (max-width: 640px) {
+    margin: 200px 0 150px;
+    > div {
+      flex-direction: column;
+
+      > div {
+        width: 100% !important;
+      }
+    }
+    &:after {
+      width: 100%;
     }
   }
 }

@@ -12,8 +12,7 @@ export default function Home() {
       <MeaAbout />
       <Services>
         <Cards />
-      </Services>{" "}
-      */
+      </Services>
       <MeaTreatementPrice
         type={"priceList"}
         caption={"Treatments & Prices"}

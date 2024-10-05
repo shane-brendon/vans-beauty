@@ -19,9 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${amiri.variable} ${palanquin.variable}`}>
-        {/* <Header></Header> */}
+        <Header></Header>
         {children}
-        {/* <Footer></Footer> */}
+        <Footer></Footer>
       </body>
     </html>
   );

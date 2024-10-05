@@ -12,7 +12,7 @@ function MeaTreatementPrice({
   button = false,
 }) {
   return (
-    <section className={styles.wrapper}>
+    <section className={`${styles.wrapper} ${styles[`${type}`]}`}>
       <div className="container flex">
         <div className={styles.priceWrapper}>
           {caption && <div className={`${styles.tag} tags`}>{caption}</div>}
