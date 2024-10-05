@@ -26,6 +26,18 @@
     img {
       width: 100%;
     }
+    @media screen and (max-width: 640px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    h2 {
+      white-space: unset;
+    }
+    .pictures {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
   .item {
     position: relative;
