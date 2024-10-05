@@ -21,4 +21,11 @@
   textarea {
     height: 140px;
   }
+  @media screen and (max-width: 821px) {
+    width: unset;
+    .row {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  }
 }
