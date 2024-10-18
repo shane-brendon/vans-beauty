@@ -1,10 +1,12 @@
+// "use client"
 const HamburgerMenuIcon = (props) => {
-  const { fill, width = 24, height = 24, className } = props;
+  const { fill, width = 24, height = 24, className, onClick } = props;
   return (
     <svg
       viewBox="0 0 512 512"
       height={height}
       width={width}
+      onClick={onClick}
       className={className}
       xmlns="http://www.w3.org/2000/svg"
     >
