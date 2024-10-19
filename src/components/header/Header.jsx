@@ -18,7 +18,6 @@ function Header() {
   return (
     <header className={styles.wrapper}>
       <div className={`container ${styles.header}`}>
-        {/* {menu} */}
         <div className="logo">
           <Image
             src={"/logo-naylish-dark.png"}
@@ -28,7 +27,83 @@ function Header() {
           ></Image>
         </div>
         <div className={styles.right}>
-          {screen.width > 840 && <Nav />}
+          {screen.width > 840 && (
+            <>
+              <Nav />
+              {menu && (
+                <div className={styles.quickInfoWrapper}>
+                  <div className={styles.quickInfoContainer}>
+                    <div>
+                      <div className={styles.top}>
+                        <div>
+                          <span
+                            className={styles.closeQuickInfo}
+                            onClick={handleHamburgerMenuClick}
+                          >
+                            X
+                          </span>
+                          <Image
+                            src={"/logo-naylish-dark.png"}
+                            width={250}
+                            height={120}
+                            alt="this"
+                          ></Image>
+                        </div>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Etiam vel risus imperdiet, gravida justo eu.
+                        </p>
+                      </div>
+                      <ul className={styles.middle}>
+                        <li>Jl. Pantai Batu Mejan, Canggu, Bali</li>
+                        <li>(+62)81 234 567</li>
+                        <li>naylish@domain.com</li>
+                      </ul>
+                      <div className={styles.bottom}>
+                        <div className="caption">Opening</div>
+                        <ul>
+                          <li>
+                            <span>Monday - Friday :</span>
+                            <span>09:00 AM - 19:00 PM</span>
+                          </li>
+                          <li>
+                            <span>Saturday :</span>
+                            <span>09:00 AM - 19:00 PM</span>
+                          </li>
+                          <li>
+                            <span>Sunday :</span>
+                            <span>09:00 AM - 19:00 PM</span>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className={styles.bottomSocials}>
+                        <FacebookIcon
+                          width={16}
+                          height={16}
+                          fill={"#053543"}
+                        ></FacebookIcon>
+                        <FacebookIcon
+                          width={16}
+                          height={16}
+                          fill={"#053543"}
+                        ></FacebookIcon>
+                        <FacebookIcon
+                          width={16}
+                          height={16}
+                          fill={"#053543"}
+                        ></FacebookIcon>
+                        <FacebookIcon
+                          width={16}
+                          height={16}
+                          fill={"#053543"}
+                        ></FacebookIcon>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </>
+          )}
           <div className={styles.socials}>
             <FacebookIcon
               width={20}
