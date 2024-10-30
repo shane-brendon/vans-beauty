@@ -34,7 +34,7 @@ function Footer() {
           <div className="support">
             <h4 className={`${amiri.className}`}>Support</h4>
             <ul className={palanquin.className}>
-              <li>FAQ's</li>
+              <li>FAQ&apos;s</li>
               <li>Privacy Policy</li>
               <li>Term & Conditions</li>
               <li>Contact</li>
