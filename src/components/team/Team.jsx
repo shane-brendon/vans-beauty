@@ -109,14 +109,14 @@ export function MeaTeam() {
         </div>
         <div className={styles.wrapperItem}>
           <div className="item">
-            <Image width={265} height={305} src={"./galery1.jpg"} />
+            <Image width={265} height={305} src={"./galery1.jpg"} alt="" />
             <div className={`${styles.name} ${amiri.className}`}>
               Gabriel Diaz
             </div>
             <div className="description">Owner</div>
           </div>
           <div className="item">
-            <Image width={265} height={305} src={"./galery1.jpg"} />
+            <Image width={265} height={305} src={"./galery1.jpg"} alt="" />
             <div className={`${styles.name} ${amiri.className}`}>
               Gabriel Diaz
             </div>

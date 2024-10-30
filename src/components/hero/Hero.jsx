@@ -22,8 +22,8 @@ function Hero() {
           </div>
         </div>
         <div className={styles.image}>
-          <Image src={"./coat-nail.jpg"} width={435} height={650} />
-          <Image src={"./peddicure.jpg"} width={400} height={265} />
+          <Image src={"./coat-nail.jpg"} width={435} height={650}  alt=""/>
+          <Image src={"./peddicure.jpg"} width={400} height={265}  alt=""/>
         </div>
       </div>
     </section>
