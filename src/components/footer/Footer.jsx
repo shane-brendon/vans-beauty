@@ -14,7 +14,12 @@ function Footer() {
         <div className={styles.top}>
           <div className="info">
             <div className={styles.logo}>
-              <Image src={"./logo-naylish-light.png"} width={155} height={65} alt=""/>
+              <Image
+                src={"./logo-naylish-light.png"}
+                width={155}
+                height={65}
+                alt=""
+              />
             </div>
             <div className={`${palanquin.className} ${styles.description}`}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.

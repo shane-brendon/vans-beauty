@@ -27,7 +27,7 @@ function MeaTreatementPrice({
         </div>
         <div className={styles.imgWrapper}>
           {type !== "contact" && type !== "booking" ? (
-            <Image src={"./person-nail.jpg"} width={550} height={800}  alt=""/>
+            <Image src={"./person-nail.jpg"} width={550} height={800} alt="" />
           ) : type === "booking" ? (
             <BookingForm />
           ) : (

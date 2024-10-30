@@ -11,19 +11,22 @@ function MeaAbout() {
             src={"./woman-having-a-manicure.jpg"}
             width={335}
             className={styles.img0}
-            height={500} alt=""
+            height={500}
+            alt=""
           ></Image>
           <Image
             src={"./manicure-accessories.jpg"}
             width={185}
             height={280}
-            className={styles.img1} alt=""
+            className={styles.img1}
+            alt=""
           ></Image>
           <Image
             src={"./woman-using-a-buffer-to-file-nail.jpg"}
             width={255}
             height={170}
-            className={styles.img2} alt=""
+            className={styles.img2}
+            alt=""
           ></Image>
         </div>
         <div>
