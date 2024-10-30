@@ -17,7 +17,7 @@ function TeamGalery() {
         </div>
         <div className={styles.pictures}>
           <div className={styles.item}>
-            <Image src={"/galery1.jpg"} width={355} height={410} alt="" />
+            <Image src={"./galery1.jpg"} width={355} height={410} alt="" />
             <div className={styles.overlay}>
               <div className={styles.jobTitle}>Nail Expert</div>
               <div className={styles.name}>Gabriella Rose</div>
@@ -29,7 +29,7 @@ function TeamGalery() {
             </div>
           </div>{" "}
           <div className={styles.item}>
-            <Image src={"/galery1.jpg"} width={355} height={410} alt="" />
+            <Image src={"./galery1.jpg"} width={355} height={410} alt="" />
             <div className={styles.overlay}>
               <div className={styles.jobTitle}>Nail Expert</div>
               <div className={styles.name}>Gabriella Rose</div>
@@ -41,7 +41,7 @@ function TeamGalery() {
             </div>
           </div>
           <div className={styles.item}>
-            <Image src={"/galery1.jpg"} width={355} height={410} alt="" />
+            <Image src={"./galery1.jpg"} width={355} height={410} alt="" />
             <div className={styles.overlay}>
               <div className={styles.jobTitle}>Nail Expert</div>
               <div className={styles.name}>Gabriella Rose</div>
@@ -53,7 +53,7 @@ function TeamGalery() {
             </div>
           </div>
           <div className={styles.item}>
-            <Image src={"/galery1.jpg"} width={355} height={410} alt="" />
+            <Image src={"./galery1.jpg"} width={355} height={410} alt="" />
             <div className={styles.overlay}>
               <div className={styles.jobTitle}>Nail Expert</div>
               <div className={styles.name}>Gabriella Rose</div>
@@ -65,7 +65,7 @@ function TeamGalery() {
             </div>
           </div>
           <div className={styles.item}>
-            <Image src={"/galery1.jpg"} width={355} height={410} alt="" />
+            <Image src={"./galery1.jpg"} width={355} height={410} alt="" />
             <div className={styles.overlay}>
               <div className={styles.jobTitle}>Nail Expert</div>
               <div className={styles.name}>Gabriella Rose</div>
@@ -77,7 +77,7 @@ function TeamGalery() {
             </div>
           </div>
           <div className={styles.item}>
-            <Image src={"/galery1.jpg"} width={355} height={410} alt="" />
+            <Image src={"./galery1.jpg"} width={355} height={410} alt="" />
             <div className={styles.overlay}>
               <div className={styles.jobTitle}>Nail Expert</div>
               <div className={styles.name}>Gabriella Rose</div>
@@ -109,14 +109,14 @@ export function MeaTeam() {
         </div>
         <div className={styles.wrapperItem}>
           <div className="item">
-            <Image width={265} height={305} src={"/galery1.jpg"} />
+            <Image width={265} height={305} src={"./galery1.jpg"} />
             <div className={`${styles.name} ${amiri.className}`}>
               Gabriel Diaz
             </div>
             <div className="description">Owner</div>
           </div>
           <div className="item">
-            <Image width={265} height={305} src={"/galery1.jpg"} />
+            <Image width={265} height={305} src={"./galery1.jpg"} />
             <div className={`${styles.name} ${amiri.className}`}>
               Gabriel Diaz
             </div>

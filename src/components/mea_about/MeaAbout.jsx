@@ -8,19 +8,19 @@ function MeaAbout() {
       <div className="container flex">
         <div className={styles.imgWrapper}>
           <Image
-            src={"/woman-having-a-manicure.jpg"}
+            src={"./woman-having-a-manicure.jpg"}
             width={335}
             className={styles.img0}
             height={500}
           ></Image>
           <Image
-            src={"/manicure-accessories.jpg"}
+            src={"./manicure-accessories.jpg"}
             width={185}
             height={280}
             className={styles.img1}
           ></Image>
           <Image
-            src={"/woman-using-a-buffer-to-file-nail.jpg"}
+            src={"./woman-using-a-buffer-to-file-nail.jpg"}
             width={255}
             height={170}
             className={styles.img2}

@@ -18,7 +18,7 @@ function Testiamonials() {
         </div>
         <div className={styles.testimonials}>
           <Image
-            src={"/getting-nails-done.jpg"}
+            src={"./getting-nails-done.jpg"}
             width={530}
             height={563}
             alt=""
@@ -32,7 +32,7 @@ function Testiamonials() {
               </div>
               <div className={styles.star}>*****</div>
               <div className={styles.author}>
-                <Image src={"/portrait.jpg"} width={60} height={60} alt="" />
+                <Image src={"./portrait.jpg"} width={60} height={60} alt="" />
                 <div>
                   <div className="name">Joana Dune</div>
                   <div className="job_title">Designation</div>
