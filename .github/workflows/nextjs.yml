@@ -79,8 +79,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
-      - name: prettier
-        run: npm run format
   # Deployment job
   deploy:
     environment:
