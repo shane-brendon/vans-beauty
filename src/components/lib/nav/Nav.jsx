@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import styles from "./nav.module.scss";
 import { palanquin } from "@/src/utils/fonts";
