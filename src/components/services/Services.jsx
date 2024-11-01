@@ -32,7 +32,7 @@ export function Cards() {
   return (
     <div className={styles.cardWrapper}>
       <div className={styles.card}>
-        <Image src={"./manicure.jpg"} width={360} height={385} alt="" />
+        <Image src={"/manicure.jpg"} width={360} height={385} alt="" />
         <div className={styles.booking}>
           <div className={amiri.className}>Manicure</div>
           <div className="description">
@@ -42,7 +42,7 @@ export function Cards() {
         </div>
       </div>
       <div className={styles.card}>
-        <Image src={"./manicure.jpg"} width={360} height={385} alt="" />
+        <Image src={"/manicure.jpg"} width={360} height={385} alt="" />
         <div className={styles.booking}>
           <div className={amiri.className}>Manicure</div>
           <div className="description">
@@ -52,7 +52,7 @@ export function Cards() {
         </div>
       </div>
       <div className={styles.card}>
-        <Image src={"./manicure.jpg"} width={360} height={385} alt="" />
+        <Image src={"/manicure.jpg"} width={360} height={385} alt="" />
         <div className={styles.booking}>
           <div className={amiri.className}>Manicure</div>
           <div className="description">
@@ -62,7 +62,7 @@ export function Cards() {
         </div>
       </div>
       <div className={styles.card}>
-        <Image src={"./manicure.jpg"} width={360} height={385} alt="" />
+        <Image src={"/manicure.jpg"} width={360} height={385} alt="" />
         <div className={styles.booking}>
           <div className={amiri.className}>Manicure</div>
           <div className="description">

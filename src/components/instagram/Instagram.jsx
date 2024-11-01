@@ -14,37 +14,37 @@ function Instagram() {
       </div>
       <div className={styles.instagram}>
         <div className={styles.item}>
-          <Image src={"./instagram1.jpg"} width={305} height={305} alt="" />
+          <Image src={"/instagram1.jpg"} width={305} height={305} alt="" />
           <div className={styles.logoContainer}>
             <InstagramIcon width={24} height={24} fill={"#fff"} />
           </div>
         </div>
         <div className={styles.item}>
-          <Image src={"./instagram1.jpg"} width={305} height={305} alt="" />
+          <Image src={"/instagram1.jpg"} width={305} height={305} alt="" />
           <div className={styles.logoContainer}>
             <InstagramIcon width={24} height={24} fill={"#fff"} />
           </div>
         </div>
         <div className={styles.item}>
-          <Image src={"./instagram1.jpg"} width={305} height={305} alt="" />
+          <Image src={"/instagram1.jpg"} width={305} height={305} alt="" />
           <div className={styles.logoContainer}>
             <InstagramIcon width={24} height={24} fill={"#fff"} />
           </div>
         </div>
         <div className={styles.item}>
-          <Image src={"./instagram1.jpg"} width={305} height={305} alt="" />
+          <Image src={"/instagram1.jpg"} width={305} height={305} alt="" />
           <div className={styles.logoContainer}>
             <InstagramIcon width={24} height={24} fill={"#fff"} />
           </div>
         </div>
         <div className={styles.item}>
-          <Image src={"./instagram1.jpg"} width={305} height={305} alt="" />
+          <Image src={"/instagram1.jpg"} width={305} height={305} alt="" />
           <div className={styles.logoContainer}>
             <InstagramIcon width={24} height={24} fill={"#fff"} />
           </div>
         </div>
         <div className={styles.item}>
-          <Image src={"./instagram1.jpg"} width={305} height={305} alt="" />
+          <Image src={"/instagram1.jpg"} width={305} height={305} alt="" />
           <div className={styles.logoContainer}>
             <InstagramIcon width={24} height={24} fill={"#fff"} />
           </div>

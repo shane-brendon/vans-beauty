@@ -15,7 +15,7 @@ function Footer() {
           <div className="info">
             <div className={styles.logo}>
               <Image
-                src={"./logo-naylish-light.png"}
+                src={"/logo-naylish-light.png"}
                 width={155}
                 height={65}
                 alt=""

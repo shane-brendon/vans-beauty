@@ -20,7 +20,7 @@ function Header() {
       <div className={`container ${styles.header}`}>
         <div className="logo">
           <Image
-            src={"./logo-naylish-dark.png"}
+            src={"/logo-naylish-dark.png"}
             width={170}
             height={70}
             alt="this"
@@ -43,7 +43,7 @@ function Header() {
                             X
                           </span>
                           <Image
-                            src={"./logo-naylish-dark.png"}
+                            src={"/logo-naylish-dark.png"}
                             width={250}
                             height={120}
                             alt="this"
@@ -129,7 +129,7 @@ function Header() {
         <div className={styles.menuMobileWrapper}>
           <div className={styles.image}>
             <Image
-              src={"./logo-naylish-dark.png"}
+              src={"/logo-naylish-dark.png"}
               width={170}
               height={70}
               alt="this"
