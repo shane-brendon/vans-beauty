@@ -5,6 +5,7 @@
   cursor: pointer;
   transition: all 300ms;
   color: black;
+  display: inline-block;
   &:hover {
     scale: 0.95;
     background-color: #053543;
