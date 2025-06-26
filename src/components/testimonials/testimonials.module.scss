@@ -28,6 +28,11 @@
     }
     .star {
       margin-top: 20px;
+      display: flex;
+      svg {
+        fill: yellow;
+        stroke: yellow
+      }
     }
     .author {
       display: flex;
@@ -35,6 +40,9 @@
       margin-top: 20px;
       gap: 2rem;
     }
+  }
+  ul {
+    bottom: -45px
   }
   @media screen and (max-width: 640px) {
     h2 {
